@@ -61,3 +61,7 @@ BEGIN
     ); 
 
 END;  
+
+-- Customize for Your Table
+-- Replace DuplicateLog, TargetTable with your actual table name.
+-- Replace Column1, Column2 with the columns you want to use for detecting duplicates.
