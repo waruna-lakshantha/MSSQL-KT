@@ -23,7 +23,7 @@ To get started with this repository:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/mssql-knowledge-sharing.git
+   git clone https://github.com/waruna-lakshantha/MSSQL-KT.git
    ```
 
 2. Explore the directories and topics.
