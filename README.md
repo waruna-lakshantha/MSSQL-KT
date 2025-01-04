@@ -7,7 +7,6 @@ Welcome to the **MSSQL Knowledge Sharing Repository**! This repository is dedica
 - [Introduction](#introduction)
 - [Getting Started](#getting-started)
 - [Topics Covered](#topics-covered)
-- [How to Contribute](#how-to-contribute)
 - [Resources](#resources)
 - [License](#license)
 
