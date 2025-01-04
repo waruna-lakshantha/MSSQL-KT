@@ -1,0 +1,27 @@
+--You can Get duplicate records before delete with following Query
+SELECT T.*  
+FROM  
+(  
+    SELECT *,  
+           DupRank = ROW_NUMBER() OVER (  
+                       PARTITION BY Column1, Column2  
+                       ORDER BY (SELECT NULL)  
+                     )  
+    FROM INSERTED  
+) AS T  
+WHERE DupRank > 1; 
+
+--Delete duplicate records in one go
+DELETE T  
+FROM  
+(  
+    SELECT *,  
+           DupRank = ROW_NUMBER() OVER (  
+                       PARTITION BY Column1, Column2  
+                       ORDER BY (SELECT NULL)  
+                     )  
+    FROM INSERTED  
+) AS T  
+WHERE DupRank > 1;  
+
+ 
