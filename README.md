@@ -62,7 +62,7 @@ Here are some additional resources to deepen your MSSQL knowledge:
 
 ## License
 
-This repository is licensed under the MIT License.
+This repository is licensed under the MIT License. See the https://github.com/waruna-lakshantha/MSSQL-KT/blob/main/LICENSE file for more details.
 
 ---
 
